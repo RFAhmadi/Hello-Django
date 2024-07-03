@@ -19,7 +19,8 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
-from core.views import index, contact
+# اینو پاکش کرد
+#from core.views import index, contact
 
 urlpatterns = [
     path('', include('core.urls')),
